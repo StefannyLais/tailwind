@@ -1,10 +1,15 @@
-import { MdOutlineKeyboardArrowDown } from "react-icons/md";
-import { BiFolderPlus } from "react-icons/bi";
-import { RiFileList3Line } from "react-icons/ri";
-import { FiTrash2 } from "react-icons/fi";
-import { BiFolder } from "react-icons/bi";
-import { FiPlusCircle } from "react-icons/fi";
+{ /* FolderExplorer.mdx */ }
+import { Meta, Story  } from '@storybook/blocks';
+import * as  FolderExplorer  from './FolderExplorer.stories';
 
+
+<Meta of={FolderExplorer}/>
+
+# FolderExplorer
+
+With `MDX` we write longform markdown documentation for our `Badge` component and embed Doc Blocks inline.
+
+```jsx 
 export function FolderExplorer() {
   return (
     <div className="border-r-[1px] border-r-gray-300 h-full p-[15px]">
@@ -80,3 +85,12 @@ export function FolderExplorer() {
     </div>
   );
 }
+```
+
+# Checkbox
+
+A checkbox is a square box that can be activated or deactivated when ticked.
+
+Use checkboxes to select one or more options from a list of choices.
+
+<Story of={FolderExplorer.Default} />
