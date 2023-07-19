@@ -25,12 +25,7 @@ export function Sidebar(){
         </li>
       </ul>
       <ul className='flex flex-col gap-5 items-center py-5'>
-        <li>
-          <LuLifeBuoy  size={24} className="text-gray-500"/>
-        </li>
-        <li>
-          <FiSettings size={24} className="text-gray-500"/>
-        </li>
+     
         <li>
           <img src="https://placehold.co/400" alt="Profile" className="w-[35px] h-[35px] rounded-full object-cover"/>
         </li>
