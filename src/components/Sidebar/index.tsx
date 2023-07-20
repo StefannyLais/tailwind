@@ -12,7 +12,7 @@ export function Sidebar(){
       </header>
       <ul className='flex-1 w-full px-[10px] py-[20px]'>
         <li className='flex items-center p-[13px]'>
-          <RiHome3Line size={24} className="text-gray-500"/>
+          <RiHome3Line size={24} className="text-blue-500"/>
         </li>
         <li className='flex items-center p-[13px]'>
           <MdOutlineAssessment size={24} className="text-gray-500"/>
