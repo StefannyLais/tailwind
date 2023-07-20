@@ -26,9 +26,7 @@ export function Sidebar(){
       </ul>
       <ul className='flex flex-col gap-5 items-center py-5'>
      
-        <li>
-          <img src="https://placehold.co/400" alt="Profile" className="w-[35px] h-[35px] rounded-full object-cover"/>
-        </li>
+       
       </ul>
     </nav>
   )
